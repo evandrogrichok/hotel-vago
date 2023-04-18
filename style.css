@@ -3,6 +3,14 @@ header{
     background: white;
 	font-family: 'Courier New', Courier, monospace;
 	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 160px;
+}
+h1{
+    width: 20%;
+}
+.socorro{
+    padding: 45px;
+    
 }
 .caixa{
     position: relative;
@@ -10,11 +18,163 @@ header{
     margin: 0 auto;
 }
 #logo{
-	width: 20%
+    padding: 45px;
 }
 #titulo {
 position: absolute;
 top: 0px;
 right: 10px;
 
+}
+
+NAV{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: black;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+h2{
+    font-size: 35px;
+    padding: 20px;
+    }
+
+span{
+    color: #3083ff;
+    font-weight: bold;  
+}
+ul, img{
+    border-radius: 20px;
+    max-height:100%; max-width:100%;
+}
+#image{
+    border-radius: 0px;
+}
+.produto-descrição{
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+.preco-produto{
+    font-weight: bold;
+    font-size: 120%;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: black;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;    
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    background: #13274F;
+    padding: 40px 0;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+form{
+    color: black;
+    margin: 40px 0;
+    
+}
+#formulario{ 
+    font-family:'Courier New', Courier, monospace;
+}
+.input-padrao{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:  50%;
+    border-radius: 25px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+form label, form legend {
+    display: block;
+    font-size: 0 0 20px;
+    margin: 0 0 10px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #ff9b44;
+    color: black;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background:#ff9b44;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+background: #555555;
+color: black;
+font-weight: bold;
+}
+
+td, th{
+    color: black;
+    border: 1px solid black;
+    padding: 8px 15px;
 }
